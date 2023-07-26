@@ -108,6 +108,10 @@
                 <input type="number" name="preco" id="preco" class="form-control" step="0.01" required>
             </div>
             <div class="form-group">
+                <label for="km">km</label>
+                <input type="number" name="km" id="km" class="form-control" step="0.01" required>
+            </div>
+            <div class="form-group">
                 <label for="descricao">Descrição</label>
                 <textarea name="descricao" id="descricao" class="form-control" rows="3" required></textarea>
             </div>

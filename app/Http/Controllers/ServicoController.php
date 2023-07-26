@@ -27,6 +27,7 @@ class ServicoController extends Controller
             'cliente_id' => 'required|exists:clientes,id',
             'data' => 'required|date',
             'preco' => 'required|numeric|min:0',
+            'km' => 'required|numeric|min:0',
             'descricao' => 'required|string',
         ]);
 
@@ -47,6 +48,7 @@ class ServicoController extends Controller
             'cliente_id' => 'required|exists:clientes,id',
             'data' => 'required|date',
             'preco' => 'required|numeric|min:0',
+            'km' => 'required|numeric|min:0',
             'descricao' => 'required|string',
         ]);
 

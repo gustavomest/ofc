@@ -9,7 +9,7 @@ class Servico extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['cliente_id', 'data', 'preco', 'descricao'];
+    protected $fillable = ['cliente_id', 'data', 'preco','km' , 'descricao'];
 
     // Relacionamento com o cliente
     public function cliente()
